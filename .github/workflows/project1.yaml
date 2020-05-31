@@ -30,4 +30,4 @@ jobs:
     - name: Install Surge
       run: npm install --global surge
     - name: Run Surge
-      run: surge ./ bootcamppiaic_project1.surge.sh --token ${{secrets.SURGE_TOKEN_WIHOUT_ROOT}}  
+      run: surge ./ bootcamppiaic_project1.surge.sh --token ${{secrets.SURGE_TOKEN_WITHOUT_ROOT}}  
